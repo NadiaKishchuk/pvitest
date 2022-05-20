@@ -1,0 +1,124 @@
+
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+li{
+  margin: 5px 2px;
+  font-size:16px;
+}
+
+body {
+    background-color: #f7ede2;
+    
+}
+h3{
+    font-size: 24px;
+  }
+  .navWelcome{
+      background-color: #f6bd60;
+      font-size: 18px;
+      color: #000000;
+
+  }
+  .navWelcomeIcon{
+      background-color: white;
+  }
+  .btnSearch{
+      border:0;
+      background-color: #84a59d;
+      font-size: 18px;
+      transition: 0.4s;
+  }
+  .btnSearch:hover{
+       border: 5px solid #84a59d;
+       font-size: 20px;
+       transition: 0.8s;
+  }
+  .inputSearch{
+      border-radius: 5px;
+  }
+  .navWelcomeItemLink{
+    color: #000000;
+    font-size: 18px;
+  }
+  .navWelcomeItemLink:hover{
+      color:#84a59d;
+      font-size: 20px;
+      transition: 0.4s;
+  }
+
+  .userForm,.photoList, .userFormUpload{
+      margin-top: 50px;
+      padding: 10px 20px 30px 20px;
+      background-color: #f5cac3;
+      font-size: 18px;
+      font-weight:500 ;
+     
+      display: flex;
+      justify-content: space-between;
+  }
+  .photoList{
+    margin-top: 50px;
+    background-color:rgba(245, 202, 195, 0.6)
+  }
+  .userForm{
+    width: 450px;
+  }
+  .userFormUpload{
+    width: 550px;
+  }
+  .userForm input{
+    display: block;
+    right: 0;
+    float: right;
+    border: 2px solid #a6856c;
+    box-shadow: 2px 2px 6px;
+    
+  }
+  .userFormUpload input{
+    width:100%;
+  }
+
+  .userForm .row{
+    margin: 20px 0;
+  }
+  .userForm label{
+    right: 0;   
+    float: left;
+  }
+ 
+  #btnSubmit{
+      height: 25px;
+      font-size: 18px;
+      background-color: #f28482;
+      
+      transition: 0.5s;
+      width: 80%;
+      margin: 2px auto;
+  }
+  #btnSubmit:hover{
+    transition: 1s;
+    font-size: 22px;
+    height: 35px;
+   
+  }
+
+textarea{
+
+  width: 95%;
+  border: 2px solid #84a59d ;
+  box-shadow: 1px 2px 6px;
+}
+
